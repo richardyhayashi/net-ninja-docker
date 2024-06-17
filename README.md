@@ -15,7 +15,7 @@ Image -> Container(running image)
 3. Images & Containers
 4. Parent Images & Docker Hub
 5. The Dockerfile
-6.
+6. dockerignore
 7.
 8.
 9.
