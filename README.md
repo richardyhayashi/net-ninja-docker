@@ -63,5 +63,5 @@ Image -> Container(running image)
 9. Managing Images & Containers
 10. Volumes
 11. Docker Compose
-12. 
+12. Dockerizing a React App
 13. 
