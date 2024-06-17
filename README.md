@@ -24,6 +24,7 @@ Image -> Container(running image)
 
 `$ docker start {container-name|container-id}`
 
+
 ## YouTube
 
 1. What is Docker?
@@ -33,7 +34,7 @@ Image -> Container(running image)
 5. The Dockerfile
 6. dockerignore
 7. Starting & Stopping Containers
-8.
+8. Layer Caching
 9.
 10.
 11.
