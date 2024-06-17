@@ -40,6 +40,16 @@ Image -> Container(running image)
 
 `$ docker system prune -a`
 
+## Docker Compose
+
+### Start
+
+`$ docker compose up -d`
+
+### Stop
+
+`$ docker compose down`
+
 ## YouTube
 
 1. What is Docker?
@@ -52,6 +62,6 @@ Image -> Container(running image)
 8. Layer Caching
 9. Managing Images & Containers
 10. Volumes
-11. 
+11. Docker Compose
 12. 
 13. 
