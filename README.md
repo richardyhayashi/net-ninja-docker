@@ -24,6 +24,25 @@ Image -> Container(running image)
 
 `$ docker start {container-name|container-id}`
 
+## List All Images
+
+`$ docker images`
+
+## Build Image
+
+`$ docker build -t image-name[:tag] .`
+
+## Remove Image
+
+`$ docker {rmi|image remove} {image-id|image-name} [-f]`
+
+## Remove Stopped Containers
+
+`$ docker {container rm|rm} {container-name|container-id}`
+
+## Remove All Images, Containers, & Volumes
+
+`$ docker system prune -a`
 
 ## YouTube
 
@@ -35,7 +54,7 @@ Image -> Container(running image)
 6. dockerignore
 7. Starting & Stopping Containers
 8. Layer Caching
-9.
+9. Managing Images & Containers
 10.
 11.
 12.
