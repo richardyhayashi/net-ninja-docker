@@ -6,11 +6,11 @@ Image -> Container(running image)
 
 ## Build Image
 
-`$ docker build -t appname .`
+`$ docker build -t appname[:tag] .`
 
 ## Run Image
 
-`$ docker run --name myapp_c1 -p 4000:4000 -d myapp`
+`$ docker run --name myapp_c1 [--rm] -d -p 4000:4000 -v ./api:/app -v /app/node_modules myapp`
 
 ## Stop Container
 
@@ -27,10 +27,6 @@ Image -> Container(running image)
 ## List All Images
 
 `$ docker images`
-
-## Build Image
-
-`$ docker build -t image-name[:tag] .`
 
 ## Remove Image
 
@@ -55,7 +51,7 @@ Image -> Container(running image)
 7. Starting & Stopping Containers
 8. Layer Caching
 9. Managing Images & Containers
-10.
-11.
-12.
-13.
+10. Volumes
+11. 
+12. 
+13. 
