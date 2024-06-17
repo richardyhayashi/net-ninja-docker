@@ -50,6 +50,17 @@ Image -> Container(running image)
 
 `$ docker compose down`
 
+## Docker Hub
+
+### Login
+
+`$ docker login`
+
+### Push Image
+
+`$ docker push account-name/image-name`
+
+
 ## YouTube
 
 1. What is Docker?
@@ -64,4 +75,4 @@ Image -> Container(running image)
 10. Volumes
 11. Docker Compose
 12. Dockerizing a React App
-13. 
+13. Sharing Images on Docker Hub
