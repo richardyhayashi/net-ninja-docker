@@ -8,6 +8,22 @@ Image -> Container(running image)
 
 `$ docker build -t appname .`
 
+## Run Image
+
+`$ docker run --name myapp_c1 -p 4000:4000 -d myapp`
+
+## Stop Container
+
+`$  docker stop {container-name|container-id}`
+
+## List All Containers
+
+`$ docker ps -a`
+
+## Restart Container
+
+`$ docker start {container-name|container-id}`
+
 ## YouTube
 
 1. What is Docker?
@@ -16,7 +32,7 @@ Image -> Container(running image)
 4. Parent Images & Docker Hub
 5. The Dockerfile
 6. dockerignore
-7.
+7. Starting & Stopping Containers
 8.
 9.
 10.
